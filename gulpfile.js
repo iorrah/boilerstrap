@@ -134,6 +134,7 @@ gulp.task('copy', function(callback) {
     'copy:bootstrap:css',
     'copy:bootstrap:js',
     'copy:jquery',
+    'copy:holderjs',
     callback
   );
 });
