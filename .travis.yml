@@ -16,10 +16,3 @@ install:
 
 script:
   - npm build
-
-deploy:
-  script:
-    - npm deploy
-
-  on:
-    branch: master
