@@ -1,0 +1,21 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  scss-lint:
+    enabled: true
+    checks:
+      VendorPrefix:
+        enabled: false
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc
+ratings:
+  paths:
+  - app/**/*.html
+  - app/**/*.js
+  - app/**/*.scss
+
