@@ -1,0 +1,8 @@
+@mixin font-copy() {
+  font-family: $font-family-copy;
+  font-weight: 300;
+}
+
+@mixin font-head() {
+  font-family: $font-family-head;
+}
